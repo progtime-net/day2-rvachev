@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("How old are you?");
+            string age = Console.ReadLine();
+            Console.WriteLine(age);
         }
     }
 }
